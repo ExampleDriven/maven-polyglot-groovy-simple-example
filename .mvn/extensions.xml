@@ -3,6 +3,8 @@
   <extension>
     <groupId>io.takari.polyglot</groupId>
     <artifactId>polyglot-groovy</artifactId>
-    <version>0.1.10</version>
+
+    <!--<version>0.1.20-SNAPSHOT</version>-->
+    <version>0.1.19</version>
   </extension>
 </extensions>
