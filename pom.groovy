@@ -22,16 +22,6 @@ project {
       if ('true'.equals(System.getProperty('file-test'))) {
         println 'File generation is enabled'
 
-
-        println properties.size()
-        println this.getProperties().containsKey('greet')
-        println properties
-        println properties.get('greet')
-
-        if (getProperties().getOrDefault('greet', false)) {
-          System.out.println 'Hello from groovy'
-        }
-
         def directory = 'target/classes/generated'
         def dirCreated = new File(directory).mkdir();
 
